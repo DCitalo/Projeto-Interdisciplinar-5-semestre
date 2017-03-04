@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>teste-manifesto</title> 
+<link rel="manifest" href="manifest.json">
+
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="application-name" content="Clarim Odium">
+<meta name="apple-mobile-web-app-title" content="Clarim Odium">
+<meta name="theme-color" content="#000000">
+<meta name="msapplication-navbutton-color" content="#000000">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="msapplication-starturl" content="http://clarim-odium.com.br/">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" type="image/png" sizes="32x32" href="arquivos/icone.png">
+<link rel="apple-touch-icon" type="image/png" sizes="32x32" href="arquivos/icone.png">
+<link rel="icon" type="image/png" sizes="64x64" href="arquivos/icone-2X.png">
+<link rel="apple-touch-icon" type="image/png" sizes="64x64" href="arquivos/icone-2X.png">
+<link rel="icon" type="image/png" sizes="128x128" href="arquivos/icone-4X.png">
+<link rel="apple-touch-icon" type="image/png" sizes="128x128" href="arquivos/icone-4X.png">
+</head> 
+<body>
+body
+</body> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="default.js"></script>
+</html> 

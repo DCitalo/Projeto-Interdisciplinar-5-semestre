@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>teste-glicht</title> 
+<style>
+	img{
+		width:73px;
+		height:79px;
+	}
+
+	.glitch::after,.glitch::before{
+		content:"";
+		display: block;
+		position: absolute;
+ 		top: 0;
+ 		left: 0;
+ 		width: 100%;
+ 		height: 100%;
+ 		  
+	}
+	.glitch::before {
+	  /* ... anything needed to make it identical */
+		
+		background:   url('arquivos/MEDO.gif');
+	  /* variation */
+	  
+	  right: 2px;
+	  clip: rect(60px, 73px, 70px, 0);
+	  animation: glitch-anim-1 2s infinite linear alternate-reverse;
+	}
+	.glitch::after {
+	  /* ... anything needed to make it identical */
+		background: url('arquivos/MEDO.gif');
+	  /* variation */
+	  left: -2px;
+	  clip: rect(28px, 450px, 42px, 0);	  
+	  animation: glitch-anim-2 2s infinite linear alternate-reverse;
+	}
+	@keyframes glitch-anim-2 {
+  0% {
+    clip: rect(42px, 450px, 55px, 0);
+  }
+  20% {
+    clip: rect(76px, 450px, 3px, 0);
+  }
+  40% {
+    clip: rect(60px, 73px, 70px, 0);
+  }
+  60% {
+    clip: rect(29px, 450px, 16px, 0);
+  }
+  80% {
+    clip: rect(76px, 450px, 3px, 0);
+  }
+  100% {
+    clip: rect(70px, 450px, 76px, 0);
+  }
+}
+	@keyframes glitch-anim-1 {
+  0% {
+    clip: rect(70px, 450px, 76px, 0);
+  }
+  20% {
+    clip: rect(29px, 450px, 16px, 0);
+  }
+  40% {
+    clip: rect(76px, 450px, 3px, 0);
+  }
+  60% {
+    clip: rect(42px, 450px, 78px, 0);
+  }
+  80% {
+    clip: rect(15px, 450px, 13px, 0);
+  }
+  100% {
+    clip: rect(53px, 450px, 5px, 0);
+  }
+}
+</style>
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+</head> 
+<body>
+<div class="glitch"><img src="arquivos/MEDO.gif"></div>
+</body> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="default.js"></script>
+</html> 

@@ -1,0 +1,318 @@
+<html>
+<head>
+	<title>Final</title> 
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Site Faculdade 4º Semestre">
+	<meta name="keywords" content="HTML,CSS,PHP,JavaScript,MySQL">
+	<meta name="author" content="Ítalo Drago">
+	<link rel="manifest" href="manifest.webmanifest">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Coiny|Courgette|Trirong" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="arquivos/style.css">
+	<link href="arquivos/owl.carousel.css" rel="stylesheet">
+	<link href="arquivos/owl.theme.css" rel="stylesheet">
+	<link href="arquivos/owl.transitions.css" rel="stylesheet">
+
+
+	<link rel="manifest" href="manifest.json">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="application-name" content="Clarim Odium">
+	<meta name="apple-mobile-web-app-title" content="Clarim Odium">
+	<meta name="theme-color" content="#000000">
+	<meta name="msapplication-navbutton-color" content="#000000">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="msapplication-starturl" content="http://clarim-odium.com.br/">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+	<link rel="icon" type="image/png" sizes="32x32" href="arquivos/icone.png">
+	<link rel="apple-touch-icon" type="image/png" sizes="32x32" href="arquivos/icone.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="arquivos/icone-2X.png">
+	<link rel="apple-touch-icon" type="image/png" sizes="64x64" href="arquivos/icone-2X.png">
+	<link rel="icon" type="image/png" sizes="128x128" href="arquivos/icone-4X.png">
+	<link rel="apple-touch-icon" type="image/png" sizes="128x128" href="arquivos/icone-4X.png">
+</head> 
+<body class="final">
+	<script type="text/javascript">
+		var $SaveState = new Array();
+		$SaveState = "0";
+	</script>
+	<header class="container-70 mb-container-100 ">
+		<div class="container-100 espacamento-1 Bg-color-1-Final"></div>
+		<div class="container-100 espacamento-2">
+			<div class="container-100 text-center logo-header">
+				<a href="#" class="DBA cont-logo" id="logo">
+					<img src="arquivos/Logo-2.png" />
+				</a>
+			</div>			
+			<div class="container-100 courgette text-center nal">
+				<p>Nota ao Leitor: Essa é nossa ultima Edição depois do que aconteceu ao nosso mundo.... Nosso Clarim fracassou... foi tomado... não conseguimos...ajud...</p>
+			</div>
+		</div>
+		<nav class="container-100 cont-menu Bg-color-2-Final DF">
+			<a href="" class="back DIB container-10 text-center mb-container-100">
+				<i class="icon-back DB"></i>
+				<p class="container-100 courgette">Voltar</p>
+			</a>
+			<div class="container-80 text-center DIB cont-tit-jor mb-container-100">
+				<p class="coiny tit-jor">Parabéns!!!</p>
+				<p class="courgette">Agora que você conseguiu derrotar os grandes males
+ vai conseguir enxergar a realidade </p>
+			</div> 
+			<div class="container-10 DIB conta mb-container-100">
+				<div class="container-100 text-center perfil">
+					<div class="container-100 cont-perfil">
+						<div class="container-60">
+							<i class="icon-perfil DB"></i>
+						</div>
+					</div>
+					<p class="coiny cont-per Bg-color-2">PERFIL</p>
+				</div>
+				<div class="mb-container-100 mb-bg-1 bg-menu-mb DN"></div>
+				<div class="DBA FW hide player-status mb-container-70" id="PlayerStatus">
+					<div class="container-100 DF FW Bg-color-1 psh">
+						<div class="container-90 player-name">
+							<?php	
+							echo '<p class="coiny psn">'.$login_cookie.'</p>';
+							?>
+						</div>
+						<div class="container-90 courgette DF player-esc">
+							<div class="DIB container-50" id="EXIT"><a href="#">Sair</a></div>
+						</div>
+					</div>
+					<div class="container-100 Bg-color-3 psb">
+						<p class="text-center coiny">Meus Status</p>
+						<div class="container-90">
+							<div class="container-100">
+								<p class="courgette container-100">Sanidade</p>
+								<div class="container-100 DF">
+									<div class="container-25 char">
+										<i class="container-80 DB icon-char"></i>
+									</div>
+									<div class="container-40 DF Menu-Player-life" id="PlayerLife">
+										<div class="container-20 DIB Player-life-cont"></div>
+										<div class="container-20 DIB Player-life-cont"></div>
+									</div>
+								</div>
+							</div>
+							<div class="container-100 DF" id="MascSticker">
+								<div class="container-25 cont-stick DIF text-center stick-masc-medo">
+									<i class="icon-stick-masc-medo PA"></i>
+									<p class="courgette masc-name">Passus</p>
+								</div>
+								<div class="container-25 cont-stick DIF text-center stick-masc-odio">
+									<i class="icon-stick-masc-odio PA"></i>
+									<p class="courgette masc-name">Caedes</p>
+								</div>
+								<div class="container-25 cont-stick DIF text-center stick-masc-reli">
+									<i class="icon-stick-masc-reli PA"></i>
+									<p class="courgette masc-name">Laqueus</p>
+								</div>
+								<div class="container-25 cont-stick DIF text-center stick-masc-objet">
+									<i class="icon-stick-masc-objet PA"></i>			
+									<p class="courgette masc-name">Quod</p>
+								</div>
+							</div>
+							<div class="container-100 DF FW">
+								<div class="container-50 DIB" >
+									<p class="container-100">Paciência</p>
+									<div class="masc-cont-life DF" id="VirtudePaci">
+										<div class="container-33 Masc-life-cont"></div>
+										<div class="container-33 Masc-life-cont"></div>
+										<div class="container-33 Masc-life-cont"></div>
+									</div>
+								</div>
+								<div class="container-50 DIB" >
+									<p class="container-100">Conhecimento</p>
+									<div class="masc-cont-life DF" id="VirtudeConhe">
+										<div class="container-33 Masc-life-cont"></div>
+										<div class="container-33 Masc-life-cont"></div>
+										<div class="container-33 Masc-life-cont"></div>
+									</div>
+								</div>
+								<div class="container-50 DIB">
+									<p class="container-100">Empatia</p>
+									<div class="masc-cont-life DF" id="VirtudeEmp">
+										<div class="container-33 Masc-life-cont"></div>
+										<div class="container-33 Masc-life-cont"></div>
+										<div class="container-33 Masc-life-cont"></div>
+									</div>
+								</div>
+								<div class="container-50 DIB">
+									<p class="container-100">Carinho</p>
+									<div class="masc-cont-life DF" id="VirtudeCari">
+										<div class="container-33 Masc-life-cont"></div>
+										<div class="container-33 Masc-life-cont"></div>
+										<div class="container-33 Masc-life-cont"></div>
+									</div>
+								</div>
+							</div>	
+							<div data-href="https://clarim-odium.com.br/jornal.php"  class="container-100 comp-menu text-center fb-share-button">
+								<input type="button" value="Compartilhar Status" name="Compartilhar" id="capture" class="coiny container-100">
+							</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="container-70 final-body mb-container-100">
+		<div class="container-100 text-center cont-congrats">
+			<p class="anton">TRANSFOBIA MATA!</p>
+			<p class="anton">Neste ano de 2016, o número de pessoas<br/>trans assassinadas no Brasil já passa de 100</p>
+			<p class="courgette">O país é o que mais mata transgêneros no mundo.</p>
+		</div>
+		<div class="container-100 text-center Bg-color-3-Final">
+			<p class="coiny">confira a resposta de outros usuários,</p>
+			<p class="courgette">o teu resultado e veja quem perdeu pra um dos monstros</p>
+		</div>
+		<!--Mobile-carrossel-->
+		<div class="DN container-100" id="car-mascs">
+			<div class="container-100 car-masc">
+				<div class="container-100 DF FW">
+					<div class="container-100">
+						<img src="arquivos/Bg-Passus-Final.jpg">
+					</div>
+					<div class="container-100 DF FW  Bg-color-2">
+						<div class="container-100 boss-flag FF">
+							<img src="arquivos/FaixaPassus.png">
+						</div>
+						<div class="container-100"></div>
+					</div>
+				</div>
+				<div class="container-100 DF FW">
+					<div class="container-100">
+						<img src="arquivos/Bg-Caedes-Final.jpg">
+					</div>
+					<div class="container-100 DF FW  Bg-color-2">
+						<div class="container-100 boss-flag FF">
+							<img src="arquivos/FaixaCaedes.png">
+						</div>
+						<div class="container-100"></div>
+					</div>
+				</div>
+				<div class="container-100 DF FW">
+					<div class="container-100">
+						<img src="arquivos/Bg-Laqueus-Final.jpg">
+					</div>
+					<div class="container-100 DF FW  Bg-color-2">
+						<div class="container-100 boss-flag FF">
+							<img src="arquivos/FaixaLaqueus.png">
+						</div>
+						<div class="container-100"></div>
+					</div>
+				</div>
+				<div class="container-100 DF FW">
+					<div class="container-100">
+						<img src="arquivos/Bg-Quod-Final.jpg">
+					</div>
+					<div class="container-100 DF FW  Bg-color-2">
+						<div class="container-100 boss-flag FF">
+							<img src="arquivos/FaixaQuod.png">
+						</div>
+						<div class="container-100"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/Mobile-carrossel-->
+		<div class="container-100 DF" id="masc-desktop">
+			<div class="container-25 DF FW">
+				<div class="container-100">
+					<img src="arquivos/Bg-Passus-Final.jpg">
+				</div>
+				<div class="container-100 DF FW  Bg-color-2 FF">
+					<div class="container-100 boss-flag">
+						<img src="arquivos/FaixaPassus.png">
+					</div>
+				</div>
+				<div class="container-100 hide">
+					<div class="container-100 cont-results-Passus cont-results" id="ResultPassus"></div>
+				</div>
+			</div>
+			<div class="container-25 DF FW">
+				<div class="container-100">
+					<img src="arquivos/Bg-Caedes-Final.jpg">
+				</div>
+				<div class="container-100 DF FW  Bg-color-2 FF">
+					<div class="container-100 boss-flag">
+						<img src="arquivos/FaixaCaedes.png">
+					</div>
+				</div>
+				<div class="container-100 hide">
+					<div class="container-100 cont-results-Caedes cont-results" id="ResultCaedes"></div>
+				</div>
+			</div>
+			<div class="container-25 DF FW">
+				<div class="container-100">
+					<img src="arquivos/Bg-Laqueus-Final.jpg">
+				</div>
+				<div class="container-100 DF FW  Bg-color-2 FF">
+					<div class="container-100 boss-flag">
+						<img src="arquivos/FaixaLaqueus.png">
+					</div>
+				</div>
+				<div class="container-100 hide">
+					<div class="container-100 cont-results-Laqueus cont-results" id="ResultLaqueus"></div>
+				</div>
+			</div>
+			<div class="container-25 DF FW">
+				<div class="container-100">
+					<img src="arquivos/Bg-Quod-Final.jpg">
+				</div>
+				<div class="container-100 DF FW  Bg-color-2 FF">
+					<div class="container-100 boss-flag">
+						<img src="arquivos/FaixaQuod.png">
+					</div>
+				</div>
+				<div class="container-100 hide">
+					<div class="container-100 cont-results-Quod cont-results" id="ResultQuod"></div>
+				</div>
+			</div>
+		</div>
+		<div class="container-100 DF FW Cont-mapa mb-container-100">
+			<div class="container-100 DIB Bg-color-3">
+				<div class="container-90 DF noticia-header">
+					<div class="container-15 titulo-cont DIB"></div>
+					<div class="masc-name titulo-noticia text-center DIB container-60">
+						<h2 class="anton DIB">REGIÃO CORROMPIDA</h2>
+					</div>
+					<div class="container-15 titulo-cont DIB"></div>
+				</div>
+				<div class="container-90">
+					<i class="icon-map PA"><img src="arquivos/map.png"></i>
+					<div class="container-100 map">
+						<img id="zoom_01" src='' data-zoom-image="" title="Mapa" alt="Mapa" />
+						<div class="container-100 PA cont-info-map">
+							<div class="PA DB marc1 HM">
+								<div class="PA info-map hide"></div>
+								<img src="arquivos/icon-mark-medo.png" class="PA icon-mark" />		
+							</div>
+							<div class="PA DB marc2 HM">
+								<div class="PA info-map hide"></div>						
+								<img src="arquivos/icon-mark-odio.png" class="PA icon-mark" />		
+							</div>
+							<div class="PA DB marc3 HM">
+								<div class="PA info-map hide"></div>
+								<img src="arquivos/icon-mark-reli.png" class="PA icon-mark" />				
+							</div>
+							<div class="PA DB marc4 HM">
+								<div class="PA info-map hide"></div>
+								<img src="arquivos/icon-mark-obje.png" class="PA icon-mark" />		
+							</div>
+						</div>
+					</div>
+					<p class="courgette DIB PA container-100 text-map">Eles precisam ser parados...<br>o impacto no nosso mundo é visível...</p>
+				</div>
+				<div class="sub-text-map container-90">
+					<p class="trirong">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque tempus sapien. In sed risus neque. Donec sed mattis tellus. Quisque in sapien sit amet elit ornare sagittis. Pellentesque eu tellus laoreet</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="arquivos/jquery.elevatezoom.js"></script>
+<script type="text/javascript" src="arquivos/default.js"></script>
+<script type="text/javascript" src="arquivos/owl.carousel.min.js"></script>
+</html>  

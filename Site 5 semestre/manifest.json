@@ -1,0 +1,31 @@
+{
+  "name": "Clarim Odium",
+  "lang": "pt-BR",
+  "start_url": "http://clarim-odium.com.br/",
+  "display": "fullscreen",
+  "theme_color": "#000000",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "arquivos/icone.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "arquivos/icone-2X.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "arquivos/icone-4X.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+    {
+      "src": "arquivos/icone-200-200.png",
+      "sizes": "200x200",
+      "type": "image/png"
+    }
+  ]
+}

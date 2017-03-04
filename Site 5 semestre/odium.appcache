@@ -1,0 +1,40 @@
+CACHE MANIFEST
+# 2016-12-06:v2
+
+# Explicitly cached entries
+/index.php
+/final.php
+/arquivos/style.css
+/arquivos/default.js
+
+# offline.html will be displayed if the user is offline
+FALLBACK:
+/jornal.html
+
+# All other resources (e.g. sites) require the user to be online. 
+NETWORK:
+*
+
+# Additional resources to cache
+CACHE:
+ /index.php 
+ /jornal.php
+ /arquivos/default.js
+ /arquivos/style.css
+ /arquivos/BACKGROUND GIF.gif
+ /arquivos/Caedes_loop.gif
+ /arquivos/Caedes_Morte.gif
+ /arquivos/Passus_loop.gif
+ /arquivos/Passus_Morte.gif
+ /arquivos/Quod_loop.gif
+ /arquivos/Quod_Morte.gif
+ /arquivos/Laqueus_loop.gif
+ /arquivos/Laqueus_Morte.gif
+ /arquivos/Mapa-Corrompido-4.jpg
+ /arquivos/Mapa-Corrompido-3.jpg
+ /arquivos/Mapa-Corrompido-2.jpg
+ /arquivos/Mapa-Corrompido-1.jpg
+ /arquivos/BG-Laqueus.gif
+ /arquivos/BG-Quod.gif
+ /arquivos/BG-Passus.gif
+ /arquivos/BG-Caedes.gif
